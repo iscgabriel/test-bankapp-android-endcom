@@ -16,10 +16,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textColor="#0592bd"
+            android:textSize="20sp"
             android:gravity="center"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="30dp"
-            android:layout_marginTop="18dp"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="18dp"
             android:textStyle="bold"
             android:text="@string/mis_cuentas" />
@@ -31,8 +32,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textColor="#819598"
+            android:textSize="20sp"
             android:gravity="center"
-            android:layout_marginTop="18dp"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="18dp"
             android:textStyle="bold"
             android:text="@string/enviar_dinero" />
@@ -75,7 +77,7 @@
                         en cuentas" />
 
                     <TextView
-                        android:id="@+id/textView7"
+                        android:id="@+id/tvSaldoGeneral"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="$0,000.00"
@@ -104,7 +106,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView9"
+                        android:id="@+id/tvIngresos"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"
@@ -133,7 +135,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView40"
+                        android:id="@+id/tvGastos"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right"

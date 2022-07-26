@@ -29,9 +29,10 @@
 
             <fragment
                 android:id="@+id/fragment_saldos"
+                android:name="com.gabrielvalles.test_bankapp_android_endcom.fragments.SaldosFragment"
                 android:layout_width="match_parent"
                 android:layout_height="135dp"
-                android:layout_marginTop="53dp"
+                android:layout_marginTop="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +52,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/fragment_cuenta">
 
                 <TextView
-                    android:id="@+id/txt_add_tarjeta"
+                    android:id="@+id/tvAgregarTarjeta"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:gravity="center"
@@ -64,6 +65,7 @@
 
             <fragment
                 android:id="@+id/fragment_tarjetas"
+                android:name="com.gabrielvalles.test_bankapp_android_endcom.fragments.TarjetaFragment"
                 android:layout_width="match_parent"
                 android:layout_height="210dp"
                 android:layout_marginTop="244dp"
@@ -71,7 +73,6 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/fragment_cuenta">
-
             </fragment>
 
             <LinearLayout
@@ -97,14 +98,12 @@
                     android:textStyle="bold" />
 
                 <fragment
-                    android:id="@+id/quinto_fragment"
+                    android:id="@+id/fragment_movimientos"
+                    android:name="com.gabrielvalles.test_bankapp_android_endcom.fragments.MovimientosFragment"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
-                    android:layout_marginBottom="10dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent">
+                    android:layout_marginBottom="10dp">
                 </fragment>
 
             </LinearLayout>
